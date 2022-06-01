@@ -72,6 +72,6 @@ async def get_net_image_prediction(image_link: str = ""):
         "model-prediction-confidence-score": model_score
     }
     
-if __name__ == "__main__":
-	port = int(os.environ.get('PORT'))
-	run(app, host="0.0.0.0", port=port)
+# if __name__ == "__main__":
+# 	port = int(os.environ.get('PORT'))
+# 	run(app, host="0.0.0.0", port=port)
